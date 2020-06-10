@@ -1,0 +1,117 @@
+@import url("S-Core-Dream-light/s-core-dream.css");
+
+*{margin:0; padding:0;}
+body {background-color:#fff;
+	  
+	  }
+	  
+a {color:#4e4e4e;;text-decoration:none;}
+ul{list-style:none;}
+
+div#wrapper{width:1920px;height:3000px;border:0px solid red;position:relative;}
+header {float:left;width:1920px;height:230px;border:0px solid blue;position:relative}
+div#logo{float:left;border:0px solid red;padding:104px 0 0 840px;}
+
+div#sns{
+	position:absolute;
+	width:88px;height:40px;
+    border:0px solid red;
+	float::left;
+	margin:-42px 0 0 151px;
+	z-index:14;
+}
+div#sns > ul > li {
+	float:left;
+	padding-right:10px;
+	z-index:14;
+}
+
+#subTopmenu{
+	position:absolute;
+	width:400px;
+	border:0px solid red;
+    float:left;
+    margin:-33px 0 0 1441px;
+	z-index:14;
+}
+#subTopmenu > ul > li {
+	float:left;
+	padding-right:25px;
+	font-size:13px;
+	z-index:14;
+}
+
+#mainTopmenu{
+	position:absolute;
+	float:left;
+	width:880px;
+	height:50px;
+	border:0px solid red;
+    float:left;
+    margin:4px 0 0 566px;
+	z-index:14;
+}
+
+#Topmenu > li{float:left;}
+
+/* linktwo */
+.font1 {font-family:"Manrope Medium";
+        }
+#sCore{margin-top:-2px;}
+.font2 {font-family: "s-core-dream-medium", sans-serif !important;
+        line-height:30px;
+        }
+		
+		
+.link-2 a{  text-transform: uppercase;
+            font-size: 17px;
+			font-weight:600
+            text-decoration:none;
+            position: relative;
+            display: block;
+			float:left;
+			margin-right:45px;}
+.link-2 p {
+           font-size: 80%;
+           margin: 1px;}
+		   
+[class^="link-"] {
+  display: inline-block;
+  margin: 2em
+}		   			
+			
+.link-2 a:hover {
+  color: #4e4e4e;
+}
+
+.link-2 a:before {
+  content: '';
+  border-bottom: solid 1px #7f0019;
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%;
+  
+  opacity: 0;
+}
+
+.link-2 a:hover:before {
+  opacity: 1.0;
+}
+
+.link-2 a, .link-2 a:before {
+  -webkit-transition: all 0.8s ease;
+          transition: all 0.8s ease;
+}
+
+
+#Footer_back{clear:both}
+
+#Footer1{width:1920px;height:287px;background-color:#400000;margin:0 0 0 0;position:relative;}
+#Footer_menu1{margin:0 0 0 440px;padding:30px 0 0 0;border:0px solid blue;width:89px;height:16px;position:absolute;z-index:2;}
+#Footer_menu2{margin:0 0 0 686px;padding:30px 0 0 0;border:0px solid blue;width:89px;height:16px;position:absolute;z-index:1;}
+#Footer_menu3{margin:0 0 0 956px;padding:30px 0 0 0;border:0px solid blue;width:89px;height:16px;position:absolute;z-index:1;}
+#Footer_menu4{margin:0 0 0 1172px;padding:30px 0 0 0;border:0px solid blue;width:89px;height:16px;position:absolute;z-index:1;}
+#Footer_menu5{margin:0 0 0 1425px;padding:30px 0 0 0;border:0px solid blue;width:89px;height:16px;position:absolute;z-index:1;}
+#Footer_line{position:absolute;padding:58px 0 0 0;}
+#Footer_logo{position:absolute;padding:153px 0 0 440px;z-index:1;}
+#Footer_text{position:absolute;padding:148px 0 0 681px;}

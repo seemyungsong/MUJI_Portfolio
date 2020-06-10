@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,900);
+@import url("S-Core-Dream-light/s-core-dream.css");
+
+*{margin:0; padding:0;}
+body {background-color:#fff;
+	  
+	  }
+	  
+a {color:#4e4e4e;;text-decoration:none;}
+ul{list-style:none;}
+
+div#wrapper{width:1920px;height:7111px;border:0px solid red;}
+header {float:left;width:1920px;height:230px;border:0px solid blue;position:relative}
+div#logo{float:left;border:0px solid red;padding:104px 0 0 840px;}
+
+div#sns{
+	position:absolute;
+	width:88px;height:40px;
+    border:0px solid red;
+	float::left;
+	margin:-42px 0 0 151px;
+}
+div#sns > ul > li {
+	float:left;
+	padding-right:10px;
+}
+
+#subTopmenu{
+	position:absolute;
+	width:400px;
+	border:0px solid red;
+    float:left;
+    margin:-33px 0 0 1441px;
+}
+#subTopmenu > ul > li {
+	float:left;
+	padding-right:25px;
+	font-size:13px;
+}
+
+#mainTopmenu{
+	position:absolute;
+	float:left;
+	width:880px;
+	height:50px;
+	border:0px solid red;
+    float:left;
+    margin:4px 0 0 566px;
+}
+
+#Topmenu > li{float:left;}
+
+#Topmenu > li > span > a{float:left;}
+
+/* linktwo */
+.font1 {font-family:"Manrope Medium";
+        }
+#sCore{margin-top:-2px;}
+.font2 {font-family: "s-core-dream-medium", sans-serif !important;
+        line-height:30px;
+        }
+		
+		
+.link-2 a{  text-transform: uppercase;
+            font-size: 17px;
+			font-weight:600
+            text-decoration:none;
+            position: relative;
+            display: block;
+			float:left;
+			margin-right:45px;}
+.link-2 p {
+           font-size: 80%;
+           margin: 1px;}
+		   
+[class^="link-"] {
+  display: inline-block;
+  margin: 2em
+}		   			
+			
+.link-2 a:hover {
+  color: #4e4e4e;
+}
+
+.link-2 a:before {
+  content: '';
+  border-bottom: solid 1px #7f0019;
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%;
+  
+  opacity: 0;
+}
+
+.link-2 a:hover:before {
+  opacity: 1.0;
+}
+
+.link-2 a, .link-2 a:before {
+  -webkit-transition: all 0.8s ease;
+          transition: all 0.8s ease;
+}
+figure.mainImg{clear:both;border:0px solid red;height:812px;}
+
+#mainSlide{width:1920px;height:812px;margin:0 auto; position:relative;overflow:hidden;z-index:1;}
+#mainSlide > a{position:absolute;top:0px;left:1920px;}
+#mainSlide > a:first-child{left: 0px;}
+
+#text{padding:120px 0px 0px 0px}
+#textContents{clear: both;width: 300px;border: 0px solid red;}
+#text1 {border: 0px solid red;padding:0px 0px 0px 850px;}
+#text2 {border: 0px solid red;padding:25px 0px 0px 878px;}
+
+.banner_slider .banner_container{border:0px solid red;padding:60px 0 0 0;margin:0 0 0 357px;
+    position:relative;	
+	width:1202px;
+	height:538px;
+	overflow:hidden;
+}
+.banner_slider .banner_container #banner_content{
+position:absolute; width:1202px;cursor:pointer;
+}
+.banner_slider .banner_container 
+#banner_content img{
+	float:left;
+	}
+
+.banner_slider .banner_nav_container button{
+	height:115px;width:84px;
+	
+}
+#btn_prev_banner{background:url(../images/newproduct_button_1.jpg) no-repeat;border:0px;outline:0px;}
+#btn_next_banner{background:url(../images/newproduct_button_2.jpg) no-repeat;border:0px;outline:0px;}
+#leftbutton{position:absolute;margin:-322px 0 0 220px;}
+#rightbutton{position:absolute;margin:-322px 0 0 1613px;}
+
+
+#specialid{width:1920px;height:1420px;border:0px solid red;margin:75px 0 0 0;background-color:#fbf8f3}
+#specialText{padding:120px 0 0 726px;}
+#Special1{padding:126px 0 0 355px;}
+#Special1_1{padding:25px 0 0 0;}
+#Special2{margin:-507px 0 0 989px;}
+#Special2_1{padding:25px 0 0 32px;}
+#Special3{padding:158px 0 0 400px}
+#Special3_1{padding:25px 0 0 20px;}
+#Special4{margin:-617px 0 0 946px;}
+#Special4_1{padding:25px 0 0 0;}
+
+#mujiStory1{padding:120px 0 0 640px}
+#mujiStory2{margin:-616px 0 0 234px;}
+#mujiStory3{margin:-98px 0 0 490px}
+
+#Magazine_t{border:0px solid red;margin:366px 0 0 793px;}
+#MagazineContents{float:left;padding:60px 0 0 0;}
+#MagazineContents1{float:left;padding:0 0 0 358px;}
+#MagazineContents2{float:left;padding:0 0 0 36px;}
+#MagazineContents3{float:left;padding:0 0 0 36px;}
+
+#Map{clear:both;}
+#Map_back{width:1920px;height:903px;padding:120px 0 0 0;position:relative}
+#Map1{position:absolute;margin:-584px 0 0 360px;}
+#Map2{position:absolute;margin:-584px 0 0 773px;}
+#Map3{position:absolute;margin:-584px 0 0 1186px;}
+
+#Story{clear:both;position:relative;}
+#Story_text{padding:120px 0 0 787px;}
+#Story1{width:200px;height:200px;border:0px solid red;position:absolute;margin: 60px 0 0 360px;}
+a#StoryContent1{
+	display:inline-block;
+	width:200px;
+	height:200px;
+    background:url(../images/insta_1.jpg) no-repeat;
+}
+
+a#StoryContent1:hover {
+    background:url(../images/insta_1_1.jpg) no-repeat;
+}
+#Story_wrap1{padding:60px 0 0 359px;}
+#Story_wrap2{clear:both;padding:0 0 0 0;}
+.sample_image { overflow: hidden; width:200px;height:200px;float:left;}
+.sample_image  img {
+	-webkit-transform:scale(1);
+	-moz-transform:scale(1);
+	-ms-transform:scale(1);	
+	-o-transform:scale(1);	
+	transform:scale(1);
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
+	-o-transition:.5s;
+	transition:.5s;
+}
+.sample_image:hover img {
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-ms-transform:scale(1.2);	
+	-o-transform:scale(1.2);
+	transform:scale(1.2);
+}
+
+#Footer_back{clear:both;padding:120px 0 0 0;}
+#Footer1{width:1920px;height:287px;background-color:#400000;margin:0 0 0 0;position:relative;}
+#Footer_menu1{margin:0 0 0 440px;padding:30px 0 0 0;border:0px solid blue;width:89px;height:16px;position:absolute;}
+#Footer_menu2{margin:0 0 0 686px;padding:30px 0 0 0;border:0px solid blue;width:89px;height:16px;position:absolute;}
+#Footer_menu3{margin:0 0 0 956px;padding:30px 0 0 0;border:0px solid blue;width:89px;height:16px;position:absolute;}
+#Footer_menu4{margin:0 0 0 1172px;padding:30px 0 0 0;border:0px solid blue;width:89px;height:16px;position:absolute;}
+#Footer_menu5{margin:0 0 0 1425px;padding:30px 0 0 0;border:0px solid blue;width:89px;height:16px;position:absolute;}
+#Footer_line{position:absolute;padding:58px 0 0 0;}
+#Footer_logo{position:absolute;padding:153px 0 0 440px;}
+#Footer_text{position:absolute;padding:148px 0 0 681px;}
